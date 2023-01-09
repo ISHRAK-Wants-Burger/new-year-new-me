@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', sans-serif;
+}
+
+.text-primary {
+    /* color: #FD6E0A; */
+    color: red;
+}
+
+.description {
+    color: #757575;
+    font-size: 17px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+}
+.header {
+    background: #fff8f3;
+    background-image: url('../images/banner/banner1.png');
+
+    /* transform: rotate(-180deg); 
+    you can rotate the bg image using this tag but i rotated the original picture,cause i can't use it properly
+    */
+    margin-bottom: 300px;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 750px;
+    left: 0px;
+    top: 4px;
+}
+
+.banner {
+    display: block;
+    padding-top: 200px;
+    padding-right: 300px;
+    align-items: left middle;
+    margin: 0 200px;
+}
+
+.banner-title {
+    font-weight: 600;
+    font-size: 85px;
+    line-height: 76px;
+    text-align: left;
+}
+
+.btn-org {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    border: 0;
+    padding: 9px 33px;
+    height: 40px;
+    border-radius: 5px;
+    background: rgb(214, 64, 4);
+}
+/* second part*/
+.second-part {
+    display: flex;
+    background-color: #fff8f3;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.second-part-description {
+    /* padding-top: 200px; */
+    padding-left: 200px;
+    /* border: 200px;  */
+}
+   
+.section-title {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: middle;
+}
+.gg {
+    color: cyan;
+}
+
+/* third part */
+.plan-title{
+    font-weight: 700;
+    font-size: 50px;
+    padding-bottom: 20px;
+    line-height: 50px;
+    text-align: center;   
+}
+.skill-cointainer {
+    display: flex;
+    gap: 200px;
+    padding-left: 170px;
+    padding-top: 30px;
+    background-color: #fff8f3;
+}
+
+/* 4th part */
+.contact{
+    margin: 100px 80px;
+    padding: 20px 50px;
+    background-image: linear-gradient(to right,rgba(212, 60, 14, 0.988), rgb(150, 120, 120,0.1)),
+    url("/images/watch.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+    background-color: #fff8f3;
+}
+.btn-white {
+    color: orangered;
+    font-weight: 600;
+    font-size: 18px;
+    border-left: 100px;
+    padding: 10px 45px;
+    height: 40px;
+    border-radius: 5px;
+    background: white;
+}
+
+.contact-title{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 45px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+/* footer */
+.footer {
+    background-color: black;
+}
+
+.footer-main {
+    display: flex;
+    padding: 15px 50px;
+}
+.footer-description{
+    color: white;
+   padding: 10px 10px 10px 0px;
+}
+.footer-subscribe {
+    padding-left: 500px;
+}
+.footer-email{
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    margin: 10px 10px 10px 0px;
+}
