@@ -100,7 +100,7 @@
     margin: 100px 80px;
     padding: 20px 50px;
     background-image: linear-gradient(to right,rgba(212, 60, 14, 0.988), rgb(150, 120, 120,0.1)),
-    url("/images/watch.png");
+    url("../images/watch.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
